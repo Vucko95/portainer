@@ -858,7 +858,7 @@
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https://github.com/portainer/templates",
+				"url": "https://github.com/sandro-sikic/portainer",
 				"stackfile": "stacks/wordpress/docker-stack.yml"
 			},
 			"env": [
@@ -878,7 +878,7 @@
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https://github.com/portainer/templates",
+				"url": "https://github.com/sandro-sikic/portainer",
 				"stackfile": "stacks/wordpress/docker-compose.yml"
 			},
 			"env": [
