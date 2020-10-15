@@ -868,9 +868,9 @@
 					"description": "Password used by the MySQL root user."
 				},
 				{
-					"name": "MYSQL_DATABASE_PASSWORD",
-					"label": "Database root password",
-					"description": "Password used by the MySQL root user."
+					"name": "MYSQL_DATABASE_PASSWORDs",
+					"label": "Database root passwords",
+					"description": "Password used by the MySQL root users."
 				}
 			]
 		},
@@ -891,6 +891,11 @@
 					"name": "MYSQL_DATABASE_PASSWORD",
 					"label": "Database root password",
 					"description": "Password used by the MySQL root user."
+				},
+				{
+					"name": "MYSQL_DATABASE_PASSWORDs",
+					"label": "Database root passwords",
+					"description": "Password used by the MySQL root users."
 				}
 			]
 		},
