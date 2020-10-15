@@ -4,7 +4,7 @@ services:
   db:
     image: mysql:5.7
     volumes:
-      - db_data:/var/lib/mysql
+      - ${COMPOSE_PROJECT_NAME}_db_data:/var/lib/mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_DATABASE_PASSWORD}
@@ -24,4 +24,4 @@ services:
       VIRTUAL_HOST: ${HOSTNAME}
 
 volumes:
-  db_data:
+  ${COMPOSE_PROJECT_NAME}_db_data:
