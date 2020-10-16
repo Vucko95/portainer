@@ -26,6 +26,7 @@ services:
       VIRTUAL_PORT: 80
     networks:
       - proxy
+      - default
 
 volumes:
   db_data:
