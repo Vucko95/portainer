@@ -36,9 +36,6 @@ services:
 volumes:
   database:
   wordpress:
-  custom_ini:
-    external:
-      name: custom_wordpress_php_ini
 
 networks:
   proxy:
