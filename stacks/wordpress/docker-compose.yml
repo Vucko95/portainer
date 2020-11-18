@@ -11,11 +11,14 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
+    networks:
+      - default
 
   wordpress:
     image: wordpress:latest
     volumes:
       - wordpress:/var/www/html
+      - custom_wordpress_php_ini:/usr/local/etc/php
     ports:
       - 80
     restart: always
