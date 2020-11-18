@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 
 services:
   db:
@@ -27,6 +27,9 @@ services:
     networks:
       - proxy
       - default
+
+volumes:
+  db_data:
 
 networks:
   proxy:
