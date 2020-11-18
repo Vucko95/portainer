@@ -28,10 +28,6 @@ services:
       - proxy
       - default
 
-volumes:
-  db_data:
-    name: db_data
-
 networks:
   proxy:
     external:
