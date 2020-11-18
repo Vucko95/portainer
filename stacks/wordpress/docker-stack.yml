@@ -18,7 +18,7 @@ services:
     image: wordpress:latest
     volumes:
       - wordpress:/var/www/html
-      - custom_ini:/usr/local/etc/php/conf.d
+      - custom_ini:$PHP_INI_DIR/conf.d/
     ports:
       - 80
     restart: always
